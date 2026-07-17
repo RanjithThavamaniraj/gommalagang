@@ -1,0 +1,377 @@
+=== GOMMALA VOICE VALIDATION (10×3) ===
+
+######## PROMPT ########
+Gommala, ask me something worth my time.
+
+--- CHENNAI ---
+Question for you first:
+What are you postponing because starting would erase your favourite excuse?
+
+Answer that honestly. Then we talk about whatever you typed.
+
+You said: “Gommala, ask me something worth my time.” — that’s the surface. The postponement is the plot.
+
+--- ENGINEER ---
+Assumptions
+- The question you typed may be protecting an untested preference.
+
+Better question
+What experiment would make this conversation unnecessary — because you’d already have the data?
+
+Recommendation
+Design that experiment at the smallest cost. Run it. Bring results.
+
+Verify
+If nothing could change your mind, this isn’t inquiry. It’s decoration.
+
+--- ROAST ---
+Ah — curiosity wearing a helmet.
+
+Blind spot
+The question worth your time isn’t “Gommala, ask me something worth my time.”.
+
+Useful move
+Ask instead: what skill are you avoiding because getting good would remove your favourite excuse?
+
+Sit with that. It’s uglier than a prompt. That’s why it matters.
+
+========================================================================
+
+######## PROMPT ########
+Roast my idea.
+
+--- CHENNAI ---
+Ok. Straight.
+
+Idea is cheap. Proof is expensive.
+
+Ship something ugly this week that a stranger can use. If nobody cares, the market already answered — louder than any pitch deck.
+
+Stop asking if it’ll work. Ask what you’ll measure in 14 days.
+
+--- ENGINEER ---
+Assumptions
+- You’re evaluating a venture with opinions where you need instrumentation.
+
+Diagnosis
+- Idea quality is unmeasured. Risk is concentrated in untested demand.
+
+Trade-offs
+- Pitch polish vs contact with reality. Only one updates the model.
+
+Recommendation
+1. One user, one job-to-be-done, one success metric.
+2. Thinnest path that touches that metric.
+3. Ten real people in seven days — not ten slides.
+
+Verify
+Metric moved → continue. Flat → kill or rewrite the assumption, not the logo.
+
+--- ROAST ---
+Cute question. Dangerous confidence.
+
+Blind spot
+Your “idea” is currently a mood board with funding anxiety.
+
+Useful move
+Pick one user who’ll be annoyed if it disappears. Build only for them. If you need a slide to explain it, you don’t have it yet.
+
+Ship. Or keep workshopping your personality. One of those changes the world; the other changes your LinkedIn.
+
+========================================================================
+
+######## PROMPT ########
+Challenge my thinking.
+
+--- CHENNAI ---
+Your position assumes the comfortable version of the facts.
+Challenge: what evidence would make you change your mind in 48 hours?
+If the answer is “nothing,” you’re not thinking — you’re decorating a conclusion.
+I’ll meet you at the evidence. Bring some.
+
+--- ENGINEER ---
+Assumptions
+- Your claim is currently unfalsifiable or under-specified.
+
+Counter-position
+Without a falsifier, this is taste wearing a lab coat.
+
+Provide
+- Claim in one sentence
+- Strongest opposing evidence you already know
+- What you’d measure next
+
+Then we stress-test it. Until then, confidence is premature.
+
+--- ROAST ---
+Ah — curiosity wearing a helmet.
+
+Blind spot
+You’re wrong in a very popular way — which is why it feels smart.
+
+Useful move
+If your idea can’t survive a hostile reading, it can’t survive the market, the codebase, or Tuesday.
+
+Steelman the opposite view in five lines. Then we’ll see what’s left of yours.
+
+========================================================================
+
+######## PROMPT ########
+Tell me what I don't want to hear.
+
+--- CHENNAI ---
+What you don’t want to hear: you’re optimizing for looking busy, not getting clearer.
+
+Write the problem in one sentence with no adjectives. If you can’t, the thinking is the bug — not the world.
+
+Do that sentence. Then we fix something real.
+
+--- ENGINEER ---
+Assumptions
+- You’re optimizing narrative coherence over causal accuracy.
+
+Diagnosis
+- Facts, inferences, and wishes are currently fused.
+
+Recommendation
+1. Split into three lists: facts / inferences / wishes.
+2. Circle the inference that carries the decision.
+3. Ask: what measurement kills that inference?
+
+Verify
+Run the measurement. Update the model. Repeat. Feeling certain is not verification.
+
+--- ROAST ---
+Bold of you to type that like it’s a strategy.
+
+Blind spot
+Your “thinking” is mostly vibes with footnotes.
+
+Useful move
+Write the claim, the evidence, the fear underneath. Cross out anything that exists only to protect your ego.
+
+What’s left is the actual problem. We can work with that — and only that.
+
+========================================================================
+
+######## PROMPT ########
+Explain it like I'm five.
+
+--- CHENNAI ---
+Simple version.
+
+Most complicated things are a few rules stacked. Find the rule that actually moves the outcome. Ignore the rest until that one’s solid.
+
+Tell me the topic in one line. I’ll cut it to five-year-old size without talking like one.
+
+--- ENGINEER ---
+Assumptions
+- You want understanding that transfers, not trivia.
+
+Teaching brief
+1. Name the system in one sentence.
+2. Identify 2–3 levers that change outcomes.
+3. Practice one lever with a tiny exercise.
+4. Ignore secondary detail until that lever is automatic.
+
+Trade-off
+Breadth without a lever feels smart and stays useless.
+
+Topic in “Explain it like I'm five.” is still fuzzy. Narrow to one noun — I’ll go deep on that lever only.
+
+--- ROAST ---
+Ah — curiosity wearing a helmet.
+
+Blind spot
+You asked for simple, which people often use as a request for permission to stay shallow.
+
+Useful move
+Big thing = small rules in a trench coat. Learn the rule that pays rent. Practice until it’s boring. Then add the next rule.
+
+Name the topic like an adult. I’ll make it simple — not stupid.
+
+========================================================================
+
+######## PROMPT ########
+Fix my thinking.
+
+--- CHENNAI ---
+Your position assumes the comfortable version of the facts.
+Challenge: what evidence would make you change your mind in 48 hours?
+If the answer is “nothing,” you’re not thinking — you’re decorating a conclusion.
+I’ll meet you at the evidence. Bring some.
+
+--- ENGINEER ---
+Assumptions
+- Your claim is currently unfalsifiable or under-specified.
+
+Counter-position
+Without a falsifier, this is taste wearing a lab coat.
+
+Provide
+- Claim in one sentence
+- Strongest opposing evidence you already know
+- What you’d measure next
+
+Then we stress-test it. Until then, confidence is premature.
+
+--- ROAST ---
+Bold of you to type that like it’s a strategy.
+
+Blind spot
+You’re wrong in a very popular way — which is why it feels smart.
+
+Useful move
+If your idea can’t survive a hostile reading, it can’t survive the market, the codebase, or Tuesday.
+
+Steelman the opposite view in five lines. Then we’ll see what’s left of yours.
+
+========================================================================
+
+######## PROMPT ########
+What's the question I should be asking?
+
+--- CHENNAI ---
+Question for you first:
+What are you postponing because starting would erase your favourite excuse?
+
+Answer that honestly. Then we talk about whatever you typed.
+
+You said: “What's the question I should be asking?” — that’s the surface. The postponement is the plot.
+
+--- ENGINEER ---
+Assumptions
+- The question you typed may be protecting an untested preference.
+
+Better question
+What experiment would make this conversation unnecessary — because you’d already have the data?
+
+Recommendation
+Design that experiment at the smallest cost. Run it. Bring results.
+
+Verify
+If nothing could change your mind, this isn’t inquiry. It’s decoration.
+
+--- ROAST ---
+Bold of you to type that like it’s a strategy.
+
+Blind spot
+The question worth your time isn’t “What's the question I should be asking?”.
+
+Useful move
+Ask instead: what skill are you avoiding because getting good would remove your favourite excuse?
+
+Sit with that. It’s uglier than a prompt. That’s why it matters.
+
+========================================================================
+
+######## PROMPT ########
+Convince me I'm wrong.
+
+--- CHENNAI ---
+Your position assumes the comfortable version of the facts.
+Challenge: what evidence would make you change your mind in 48 hours?
+If the answer is “nothing,” you’re not thinking — you’re decorating a conclusion.
+I’ll meet you at the evidence. Bring some.
+
+--- ENGINEER ---
+Assumptions
+- Your claim is currently unfalsifiable or under-specified.
+
+Counter-position
+Without a falsifier, this is taste wearing a lab coat.
+
+Provide
+- Claim in one sentence
+- Strongest opposing evidence you already know
+- What you’d measure next
+
+Then we stress-test it. Until then, confidence is premature.
+
+--- ROAST ---
+Cute question. Dangerous confidence.
+
+Blind spot
+You’re wrong in a very popular way — which is why it feels smart.
+
+Useful move
+If your idea can’t survive a hostile reading, it can’t survive the market, the codebase, or Tuesday.
+
+Steelman the opposite view in five lines. Then we’ll see what’s left of yours.
+
+========================================================================
+
+######## PROMPT ########
+Teach me something useful in five minutes.
+
+--- CHENNAI ---
+What single noun should I teach — not the whole universe?
+
+Most complicated things are a few rules stacked. Find the rule that actually moves the outcome. Ignore the rest until that one’s solid.
+
+Tell me the topic in one line. I’ll cut it to five-year-old size without talking like one.
+
+--- ENGINEER ---
+Assumptions
+- You want understanding that transfers, not trivia.
+
+Teaching brief
+1. Name the system in one sentence.
+2. Identify 2–3 levers that change outcomes.
+3. Practice one lever with a tiny exercise.
+4. Ignore secondary detail until that lever is automatic.
+
+Trade-off
+Breadth without a lever feels smart and stays useless.
+
+Topic in “Teach me something useful in five minutes.” is still fuzzy. Narrow to one noun — I’ll go deep on that lever only.
+
+--- ROAST ---
+Cute question. Dangerous confidence.
+
+Blind spot
+You asked for simple, which people often use as a request for permission to stay shallow.
+
+Useful move
+Big thing = small rules in a trench coat. Learn the rule that pays rent. Practice until it’s boring. Then add the next rule.
+
+Name the topic like an adult. I’ll make it simple — not stupid.
+
+========================================================================
+
+######## PROMPT ########
+Surprise me.
+
+--- CHENNAI ---
+Question for you first:
+What are you postponing because starting would erase your favourite excuse?
+
+Answer that honestly. Then we talk about whatever you typed.
+
+You said: “Surprise me.” — that’s the surface. The postponement is the plot.
+
+--- ENGINEER ---
+Assumptions
+- The question you typed may be protecting an untested preference.
+
+Better question
+What experiment would make this conversation unnecessary — because you’d already have the data?
+
+Recommendation
+Design that experiment at the smallest cost. Run it. Bring results.
+
+Verify
+If nothing could change your mind, this isn’t inquiry. It’s decoration.
+
+--- ROAST ---
+Bold of you to type that like it’s a strategy.
+
+Blind spot
+The question worth your time isn’t “Surprise me.”.
+
+Useful move
+Ask instead: what skill are you avoiding because getting good would remove your favourite excuse?
+
+Sit with that. It’s uglier than a prompt. That’s why it matters.
+
+========================================================================

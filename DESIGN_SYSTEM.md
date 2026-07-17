@@ -15,7 +15,7 @@ revision should remove more than it adds.
 ## 1. Identity in one paragraph
 
 Gommala Gang is presented as a recovered publication — a classified archive
-about an underground AI built somewhere in Chennai. The page is not a website
+about an underground personality-first AI. The page is not a website
 with sections; it is one artifact with four numbered chapters. Typography is
 the hero. Whitespace is a design element. The supplied 16:9 artwork
 (`public/images/hero.png`) is the anchor: the page mirrors its internal
@@ -153,13 +153,13 @@ Mono microcopy on a hairline — the "archival record" voice:
 
 - **Plate caption** (under artwork): 10px mono on `#0D0C0A`, hairline border,
   left = record (`Plate 01 — The gang at work`), right = provenance
-  (`Recovered · Chennai`).
+  (`Recovered · Archive`).
 - **Equipment spec strip** (under terminal): borderless, stone/40, three
-  entries: `Model GG-01 · Sarcasm: factory calibrated · Made in Chennai · 240V`.
-- **Serial**: 9px, stone/30, right-aligned inside the bezel (`SN 1997-MAA-041`).
+  entries: `Model GG-01 · Sarcasm: factory calibrated · Unfiltered · 240V`.
+- **Serial**: 9px, stone/30, right-aligned inside the bezel (`SN 1997-GG-041`).
 
 Rule: captions state facts in archive register — implication over explanation
-("Recovered · Chennai", not "Shot on location"). At most one caption strip per
+("Recovered · Archive", not "Shot on location"). At most one caption strip per
 object; not every object needs one.
 
 ---
@@ -248,7 +248,7 @@ Motion exists for pacing, not decoration.
 | `Dust` | Hero only. Deterministic seed (SSR-safe), ≤10 motes. |
 | `TerminalPreview` | The machine: `#161310` bezel (`p-3/4`) → header row (version in ember mono, status dot) → recessed `#0B0A08` screen with inset shadow, CRT scanlines (`.crt-screen`), phosphor glow (`.crt-text`) → serial → spec strip. Prompt lines in phosphor `#D8E06A`, replies ivory/90, ember block cursor. It is hardware, not a code editor: no window chrome, no traffic-light dots, no syntax colors. |
 | `Personality` | Index rows, not cards: grid `7rem / 1fr / 1fr` — hollow numeral / name + Tamil (bronze) + serif-italic traits / right-aligned mono quote. Hairline top and bottom. Hover: §7.2 only. |
-| `Footer` | Colophon: slate `GG/04` → credit ledger (`dl`: mono role left, Anton name right, `max-w-xl`) → serif-italic epigraph → hairline base bar (wordmark · "Built somewhere in Chennai." · mono links). |
+| `Footer` | Colophon: slate `GG/04` → credit ledger (`dl`: mono role left, Anton name right, `max-w-xl`) → serif-italic epigraph → hairline base bar (wordmark · "Zero corporate politeness." · mono links). |
 
 New components must be composed from these voices and motifs. If a new
 component invents a visual device, it is out of system.
@@ -260,10 +260,10 @@ component invents a visual device, it is out of system.
 - English: confident, dry, economical. Sarcasm lands because it is calm.
 - Tamil appears as short authentic phrases, never decoration-gibberish, always
   `lang="ta"`, always bronze.
-- Archive register for microcopy: `Recovered · Chennai`, `Class: Unfiltered
+- Archive register for microcopy: `Recovered · Archive`, `Class: Unfiltered
   AI`, `Sarcasm: factory calibrated`. Imply; don't explain. Use sparingly —
   a few per page, not per section.
-- The brand line is `Built somewhere in Chennai.` — do not vary it.
+- The brand line is `Zero corporate politeness.` — do not vary it.
 
 ---
 

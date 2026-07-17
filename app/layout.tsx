@@ -30,17 +30,17 @@ const plexMono = IBM_Plex_Mono({
 export const metadata: Metadata = {
   title: "Gommala Gang — Unfiltered AI",
   description:
-    "The AI that skips corporate politeness and gets straight to the point. Chennai attitude, sharp wit, surprisingly good answers.",
+    "Personality-first AI. Honest conversations with attitude — intelligent, thought-provoking, and worth your time. Zero corporate politeness.",
   openGraph: {
     title: "Gommala Gang — Unfiltered AI",
     description:
-      "The AI that skips corporate politeness and gets straight to the point.",
+      "Personality-first AI. Honest conversations with attitude — intelligent, thought-provoking, and worth your time.",
     images: ["/images/hero.png"],
   },
 };
 
 export const viewport = {
-  themeColor: "#090909",
+  themeColor: "#1E2019",
 };
 
 export default function RootLayout({
@@ -53,7 +53,7 @@ export default function RootLayout({
       lang="en"
       className={`${anton.variable} ${fraunces.variable} ${plexMono.variable} ${tamil.variable} h-full antialiased`}
     >
-      <body className="min-h-full bg-ink text-ivory noise bg-concrete">
+      <body className="min-h-full bg-gg-background text-gg-text noise bg-concrete">
         {children}
       </body>
     </html>

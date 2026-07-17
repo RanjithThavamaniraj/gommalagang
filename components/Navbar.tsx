@@ -26,17 +26,17 @@ export function Navbar() {
       className={cn(
         "fixed inset-x-0 top-0 z-50 transition-all duration-500",
         scrolled
-          ? "border-b border-hairline bg-ink/70 backdrop-blur-md"
+          ? "border-b border-gg-hairline bg-gg-background/70 backdrop-blur-md"
           : "border-b border-transparent bg-transparent"
       )}
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-10">
         <Link
           href="#"
-          className="font-display text-2xl tracking-wide text-ivory"
+          className="font-display text-2xl tracking-wide text-gg-text"
           aria-label="Gommala Gang home"
         >
-          GG<span className="text-ember">_</span>
+          GG<span className="text-gg-primary">_</span>
         </Link>
 
         <ul className="hidden items-center gap-9 md:flex">
@@ -44,9 +44,9 @@ export function Navbar() {
             <li key={link.label}>
               <Link
                 href={link.href}
-                className="group font-mono text-[11px] uppercase tracking-[0.25em] text-stone transition-colors hover:text-ivory"
+                className="group font-mono text-[11px] uppercase tracking-[0.25em] text-gg-text/65 transition-colors hover:text-gg-text"
               >
-                <span className="mr-1.5 text-ember/70 transition-colors group-hover:text-ember">
+                <span className="mr-1.5 text-gg-primary/70 transition-colors group-hover:text-gg-accent">
                   {link.index}
                 </span>
                 {link.label}
@@ -56,8 +56,8 @@ export function Navbar() {
         </ul>
 
         <Link
-          href="#terminal"
-          className="border border-ember/70 px-5 py-2.5 font-mono text-[11px] uppercase tracking-[0.25em] text-ember transition-all duration-300 hover:bg-ember hover:text-ink"
+          href="/terminal"
+          className="border border-gg-primary/70 px-5 py-2.5 font-mono text-[11px] uppercase tracking-[0.25em] text-gg-primary transition-all duration-300 hover:bg-gg-accent hover:text-gg-background"
         >
           Join the Gang
         </Link>

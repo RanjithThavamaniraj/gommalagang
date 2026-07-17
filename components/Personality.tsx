@@ -7,7 +7,7 @@ import { SectionSlate } from "@/components/SectionSlate";
 const modes = [
   {
     index: "01",
-    name: "Chennai Mode",
+    name: "Direct Mode",
     tamil: "நேரடியா சொல்லுவேன்",
     traits: "Straightforward. No fluff.",
     sample: "“Short answer: no. Long answer: still no, but with reasons.”",
@@ -43,13 +43,13 @@ export function Personality() {
             <br />
             <span className="text-hollow">Three temperaments.</span>
           </h2>
-          <p className="mt-6 max-w-md text-lg italic text-stone">
+          <p className="mt-6 max-w-md text-lg italic text-gg-text/65">
             Not features. Moods. Pick the one you can handle today.
           </p>
         </FadeUp>
 
         {/* Editorial index — contents-page rows, not cards */}
-        <div className="mt-16 border-t border-hairline">
+        <div className="mt-16 border-t border-gg-hairline">
           {modes.map((mode, i) => (
             <motion.article
               key={mode.name}
@@ -57,7 +57,7 @@ export function Personality() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-60px" }}
               transition={{ duration: 0.8, delay: i * 0.1, ease }}
-              className="group relative grid items-baseline gap-x-8 gap-y-3 border-b border-hairline py-10 md:grid-cols-[7rem_1fr_1fr] lg:py-12"
+              className="group relative grid items-baseline gap-x-8 gap-y-3 border-b border-gg-hairline py-10 md:grid-cols-[7rem_1fr_1fr] lg:py-12"
             >
               <span
                 aria-hidden
@@ -72,20 +72,20 @@ export function Personality() {
                 </h3>
                 <p
                   lang="ta"
-                  className="mt-2 text-sm text-bronze [font-family:var(--font-tamil),sans-serif]"
+                  className="mt-2 text-sm text-gg-primary [font-family:var(--font-tamil),sans-serif]"
                 >
                   {mode.tamil}
                 </p>
-                <p className="mt-3 text-lg italic text-stone">{mode.traits}</p>
+                <p className="mt-3 text-lg italic text-gg-text/65">{mode.traits}</p>
               </div>
 
-              <p className="max-w-md font-mono text-sm leading-6 text-ivory/60 transition-colors duration-500 group-hover:text-ivory/90 md:justify-self-end md:text-right">
+              <p className="max-w-md font-mono text-sm leading-6 text-gg-text/60 transition-colors duration-500 group-hover:text-gg-text/90 md:justify-self-end md:text-right">
                 {mode.sample}
               </p>
 
               <span
                 aria-hidden
-                className="absolute bottom-[-1px] left-0 h-px w-0 bg-ember transition-all duration-700 group-hover:w-full"
+                className="absolute bottom-[-1px] left-0 h-px w-0 bg-gg-primary transition-all duration-700 group-hover:w-full"
               />
             </motion.article>
           ))}

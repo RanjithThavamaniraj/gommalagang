@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Link from "next/link";
 import { FadeUp } from "@/components/FadeUp";
 import { SectionSlate } from "@/components/SectionSlate";
 
@@ -113,27 +114,27 @@ export function TerminalPreview() {
 
         <FadeUp delay={0.15} className="mt-12">
           {/* The unit: a bezel of dark metal around a phosphor screen */}
-          <div className="border border-hairline bg-[#161310] p-3 shadow-[0_30px_90px_rgba(0,0,0,0.7)] sm:p-4">
+          <div className="border border-gg-hairline bg-gg-surface p-3 shadow-[0_30px_90px_rgba(0,0,0,0.7)] sm:p-4">
             <div className="mb-3 flex items-center justify-between px-1">
-              <span className="font-mono text-[11px] uppercase tracking-[0.25em] text-ember">
+              <span className="font-mono text-[11px] uppercase tracking-[0.25em] text-gg-primary">
                 Gommala Gang AI v1.0.0
               </span>
-              <span className="flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.2em] text-stone/60">
-                <span className="size-1.5 rounded-full bg-[#7fa650]" />
+              <span className="flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.2em] text-gg-text/60">
+                <span className="size-1.5 rounded-full bg-gg-accent" />
                 Full Gommala Mode
               </span>
             </div>
             <div
               role="log"
               aria-label="Gommala Gang terminal demo"
-              className="crt-screen border border-black/60 bg-[#0b0a08] shadow-[inset_0_0_60px_rgba(0,0,0,0.9)]"
+              className="crt-screen border border-black/60 bg-gg-surface shadow-[inset_0_0_60px_rgba(0,0,0,0.9)]"
             >
               <div className="crt-text min-h-[240px] px-5 py-6 font-mono text-sm leading-7 sm:px-7 sm:text-base">
                 {lines.map((line, i) => (
                   <p
                     key={i}
                     className={
-                      line.startsWith("> ") ? "text-[#d8e06a]" : "text-ivory/90"
+                      line.startsWith("> ") ? "text-gg-primary" : "text-gg-text/90"
                     }
                   >
                     {line}
@@ -141,25 +142,33 @@ export function TerminalPreview() {
                 ))}
                 <p
                   className={
-                    current.startsWith("> ") ? "text-[#d8e06a]" : "text-ivory/90"
+                    current.startsWith("> ") ? "text-gg-primary" : "text-gg-text/90"
                   }
                 >
                   {current}
-                  <span className="cursor-blink ml-0.5 inline-block h-[1.1em] w-[0.55em] translate-y-[0.2em] bg-ember" />
+                  <span className="cursor-blink ml-0.5 inline-block h-[1.1em] w-[0.55em] translate-y-[0.2em] bg-gg-primary" />
                 </p>
               </div>
             </div>
             <div className="mt-2 flex justify-end px-1">
-              <span className="font-mono text-[9px] uppercase tracking-[0.3em] text-stone/30">
-                SN 1997-MAA-041
+              <span className="font-mono text-[9px] uppercase tracking-[0.3em] text-gg-text/30">
+                SN 1997-GG-041
               </span>
             </div>
           </div>
           {/* Equipment specification strip */}
-          <div className="mt-3 flex items-center justify-between px-1 font-mono text-[10px] uppercase tracking-[0.25em] text-stone/40">
+          <div className="mt-3 flex items-center justify-between px-1 font-mono text-[10px] uppercase tracking-[0.25em] text-gg-text/40">
             <span>Model GG-01</span>
             <span className="hidden sm:inline">Sarcasm: factory calibrated</span>
-            <span>Made in Chennai · 240V</span>
+            <span>Unfiltered · 240V</span>
+          </div>
+          <div className="mt-8 flex justify-end">
+            <Link
+              href="/terminal"
+              className="font-mono text-[11px] uppercase tracking-[0.3em] text-gg-text/65 transition-colors hover:text-gg-accent"
+            >
+              Enter the machine →
+            </Link>
           </div>
         </FadeUp>
       </div>
