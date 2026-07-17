@@ -5,9 +5,7 @@ import Link from "next/link";
 import { cn } from "@/lib/utils";
 
 const links = [
-  { index: "01", label: "About", href: "#about" },
-  { index: "02", label: "Terminal", href: "#terminal" },
-  { index: "03", label: "Temperaments", href: "#personality" },
+  { index: "01", label: "Terminal", href: "/terminal" },
   { index: "↗", label: "GitHub", href: "https://github.com" },
 ];
 

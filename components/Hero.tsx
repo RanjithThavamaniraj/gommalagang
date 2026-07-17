@@ -167,7 +167,7 @@ export function Hero() {
             initial={reduced ? false : { opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.45, ease }}
-            className="mt-10 flex flex-col items-start gap-5 sm:flex-row sm:items-center sm:gap-8"
+            className="mt-10"
           >
             <Link
               href="/terminal"
@@ -181,13 +181,6 @@ export function Hero() {
                 className="cursor-blink inline-block h-3 w-2 bg-gg-background"
                 aria-hidden
               />
-            </Link>
-
-            <Link
-              href="#personality"
-              className="font-mono text-[11px] uppercase tracking-[0.3em] text-gg-text/65 transition-colors hover:text-gg-accent"
-            >
-              or pick your poison →
             </Link>
           </motion.div>
 
