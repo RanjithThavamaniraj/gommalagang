@@ -11,6 +11,7 @@ import {
 import { ArrowRight, Terminal } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { Dust } from "@/components/Dust";
+import { SectionSlate } from "@/components/SectionSlate";
 
 const ease = [0.16, 1, 0.3, 1] as const;
 
@@ -35,15 +36,13 @@ export function Hero() {
       <div className="relative z-10 mx-auto grid max-w-7xl items-center gap-14 px-6 lg:grid-cols-[1fr_1.15fr] lg:gap-10 lg:px-10">
         {/* Copy — the headline is allowed to break the column and run over the plate */}
         <motion.div style={{ y: copyY }} className="relative z-20 max-w-xl">
-          <motion.p
+          <motion.div
             initial={reduced ? false : { opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, ease }}
-            className="mb-3 flex items-center gap-4 font-mono text-[11px] uppercase tracking-[0.35em] text-ember"
           >
-            <span aria-hidden className="reg-mark shrink-0" />
-            GG/01 <span className="text-stone/40">·</span> Class: Unfiltered AI
-          </motion.p>
+            <SectionSlate code="GG/01" label="Class: Unfiltered AI" />
+          </motion.div>
 
           <motion.p
             initial={reduced ? false : { opacity: 0, y: 20 }}
@@ -135,7 +134,7 @@ export function Hero() {
             </div>
             <figcaption className="flex items-center justify-between border-x border-b border-hairline bg-[#0d0c0a] px-4 py-2.5 font-mono text-[10px] uppercase tracking-[0.25em] text-stone/60">
               <span>Plate 01 — The gang at work</span>
-              <span className="hidden sm:inline">Shot on location, Chennai</span>
+              <span className="hidden sm:inline">Recovered · Chennai</span>
             </figcaption>
           </figure>
         </motion.div>

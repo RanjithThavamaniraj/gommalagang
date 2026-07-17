@@ -61,7 +61,7 @@ export function Personality() {
             >
               <span
                 aria-hidden
-                className="text-hollow font-display text-5xl leading-none transition-all duration-500 group-hover:[-webkit-text-stroke-color:rgba(196,106,26,0.9)] lg:text-6xl"
+                className="text-hollow font-display text-5xl leading-none lg:text-6xl"
               >
                 {mode.index}
               </span>

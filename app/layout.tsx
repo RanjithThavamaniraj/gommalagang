@@ -18,12 +18,12 @@ const fraunces = Fraunces({
 const tamil = Noto_Sans_Tamil({
   variable: "--font-tamil",
   subsets: ["tamil"],
-  weight: ["400", "500"],
+  weight: "400",
 });
 
 const plexMono = IBM_Plex_Mono({
   variable: "--font-plex-mono",
-  weight: ["400", "500"],
+  weight: "400",
   subsets: ["latin"],
 });
 
@@ -31,6 +31,16 @@ export const metadata: Metadata = {
   title: "Gommala Gang — Unfiltered AI",
   description:
     "The AI that skips corporate politeness and gets straight to the point. Chennai attitude, sharp wit, surprisingly good answers.",
+  openGraph: {
+    title: "Gommala Gang — Unfiltered AI",
+    description:
+      "The AI that skips corporate politeness and gets straight to the point.",
+    images: ["/images/hero.png"],
+  },
+};
+
+export const viewport = {
+  themeColor: "#090909",
 };
 
 export default function RootLayout({
