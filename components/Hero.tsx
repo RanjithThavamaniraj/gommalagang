@@ -176,7 +176,7 @@ export function Hero() {
               <span className="opacity-70 transition-opacity group-hover:opacity-100">
                 &gt;
               </span>
-              Try me. I dare you
+              Enna intha pakkam?
               <span
                 className="cursor-blink inline-block h-3 w-2 bg-gg-background"
                 aria-hidden
